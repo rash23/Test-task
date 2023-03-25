@@ -15,15 +15,16 @@ module.exports = {
 		},
 		extend: {
 			colors: {
-				primary: '#7763F1',
-				green: '#54E19D',
-				red: '#ED576B',
+				primary: '#1F1F1F',
+				secondary: '#8D8D8D',
+				medium: '#717171',
+				lightGray: '#C9C9C9',
 			},
 			container: {
 				center: true,
 				screens: {
-					sm: '600px',
-					md: '728px',
+					sm: '780px',
+					md: '900px',
 					lg: '1024px',
 					xl: '1240px',
 					'2xl': '1440px',
@@ -34,6 +35,9 @@ module.exports = {
 					lg: '5rem',
 					xl: '6rem',
 					'2xl': '6rem',
+				},
+				boxShadow: {
+					'3xl': ' 0px 0px 14px rgba(0, 0, 0, 0.12)',
 				},
 			},
 		},

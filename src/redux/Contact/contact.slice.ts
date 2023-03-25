@@ -8,10 +8,10 @@ const initialState: ContactStateProps = {
 	phoneNumber: '',
 	message: '',
 	subjects: [
-		{ name: 'checkbox1', isSelected: false },
-		{ name: 'checkbox2', isSelected: false },
-		{ name: 'checkbox3', isSelected: false },
-		{ name: 'checkbox4', isSelected: false },
+		{ name: 'General Inquiry1', isSelected: false },
+		{ name: 'General Inquiry2', isSelected: false },
+		{ name: 'General Inquiry3', isSelected: false },
+		{ name: 'General Inquiry4', isSelected: false },
 	],
 	contactAddressData: [
 		{
@@ -42,7 +42,7 @@ export const contactSlice = createSlice({
 		setEmail: (state: ContactStateProps, action: PayloadAction<string>) => {
 			state.email = action.payload
 		},
-		sePhoneNumber: (state: ContactStateProps, action: PayloadAction<string>) => {
+		setPhoneNumber: (state: ContactStateProps, action: PayloadAction<string>) => {
 			state.phoneNumber = action.payload
 		},
 		setMessage: (state: ContactStateProps, action: PayloadAction<string>) => {
@@ -54,6 +54,6 @@ export const contactSlice = createSlice({
 	},
 })
 
-export const { setFirstName, setLastName, setEmail, sePhoneNumber, setMessage, setSubject } = contactSlice.actions
+export const { setFirstName, setLastName, setEmail, setPhoneNumber, setMessage, setSubject } = contactSlice.actions
 
 export default contactSlice.reducer

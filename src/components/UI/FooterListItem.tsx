@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 const FooterListItem: FC<listItemType> = ({ title, link }): JSX.Element => {
 	return (
-		<li>
+		<li className="cursor-pointer text-sm md:text-base">
 			<NavLink to={link}>{title}</NavLink>
 		</li>
 	)
