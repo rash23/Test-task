@@ -74,10 +74,10 @@ const Header: FC = (): JSX.Element => {
 
 					<div className="hidden md:flex gap-9 text-primary">
 						<div className="flex justify-center items-center rounded-full border border-black w-8 h-8 cursor-pointer">
-							<img src="./src/assets/images/Header/user.svg" alt="" />
+							<img src="../../assets/images/Header/user.svg" alt="" />
 						</div>
 						<div className="flex justify-center items-center rounded-full border border-black w-8 h-8 cursor-pointer">
-							<img src="./src/assets/images/Header/cart.svg" alt="" />
+							<img src="../../assets/images/Header/cart.svg" alt="" />
 						</div>
 					</div>
 
@@ -99,10 +99,10 @@ const Header: FC = (): JSX.Element => {
 
 				<div id="icons" className="hidden justify-center gap-[50px] mt-12">
 					<div className="flex justify-center items-center rounded-full border border-white w-8 h-8 cursor-pointer">
-						<img src="./src/assets/images/Header/user-light.svg" alt="" />
+						<img src=".../../assets/images/Header/user-light.svg" alt="" />
 					</div>
 					<div className="flex justify-center items-center rounded-full border border-white w-8 h-8 cursor-pointer">
-						<img src="./src/assets/images/Header/cart-light.svg" alt="" />
+						<img src="../../assets/images/Header/cart-light.svg" alt="" />
 					</div>
 				</div>
 			</div>

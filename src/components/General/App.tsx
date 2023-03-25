@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom'
 import Home from './Home'
 import Error from './Error'
 import Contact from '../Contact/Contact'
@@ -10,7 +10,7 @@ import { FC } from 'react'
 const App: FC = (): JSX.Element => {
 	return (
 		<div className="wrapper relative">
-			<BrowserRouter basename={'/'}>
+			<HashRouter basename={'/'}>
 				<Header />
 				<main>
 					<Routes>
@@ -20,7 +20,7 @@ const App: FC = (): JSX.Element => {
 					</Routes>
 				</main>
 				<Footer />
-			</BrowserRouter>
+			</HashRouter>
 		</div>
 	)
 }
