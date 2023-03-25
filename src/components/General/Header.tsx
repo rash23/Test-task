@@ -74,10 +74,10 @@ const Header: FC = (): JSX.Element => {
 
 					<div className="hidden md:flex gap-9 text-primary">
 						<div className="flex justify-center items-center rounded-full border border-black w-8 h-8 cursor-pointer">
-							<img src="./src/assets/images/Header/user.png" alt="" />
+							<img src={'/public/assets/images/Header/user.png'} alt="" />
 						</div>
 						<div className="flex justify-center items-center rounded-full border border-black w-8 h-8 cursor-pointer">
-							<img src="./src/assets/images/Header/cart.png" alt="" />
+							<img src="/public/assets/images/Header/cart.png" alt="" />
 						</div>
 					</div>
 
