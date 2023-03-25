@@ -23,13 +23,13 @@ const ContactInformation: FC = (): JSX.Element => {
 				</div>
 				<div className="flex gap-6 justify-center md:justify-start">
 					<div className="cursor-pointer">
-						<img src="src/assets/images/Contact/social/twitter.svg" alt="" />
+						<img src="./src/assets/images/Contact/social/twitter.svg" alt="" />
 					</div>
 					<div className="cursor-pointer">
-						<img src="src/assets/images/Contact/social/instagram.svg" alt="" />
+						<img src="./src/assets/images/Contact/social/instagram.svg" alt="" />
 					</div>
 					<div className="cursor-pointer">
-						<img src="src/assets/images/Contact/social/discord.svg" alt="" />
+						<img src="./src/assets/images/Contact/social/discord.svg" alt="" />
 					</div>
 				</div>
 				<svg
