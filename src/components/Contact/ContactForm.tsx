@@ -140,7 +140,7 @@ const ContactForm: FC = (): JSX.Element => {
 				</div>
 
 				<div className="absolute  w-28 -translate-x-[50%] translate-y-12 md:w-auto md:-translate-x-20 md:translate-y-10">
-					<img src="./src/assets/images/Contact/visual/letter-send.svg" alt="" />
+					<img src="/assets/images/Contact/visual/letter-send.svg" alt="" />
 				</div>
 			</div>
 		</form>

@@ -15,15 +15,15 @@ const initialState: ContactStateProps = {
 	],
 	contactAddressData: [
 		{
-			icon: './src/assets/images/Contact/address/phone.svg',
+			icon: '/assets/images/Contact/address/phone.svg',
 			text: '+1012 3456 789',
 		},
 		{
-			icon: './src/assets/images/Contact/address/mail.svg',
+			icon: '/assets/images/Contact/address/mail.svg',
 			text: 'demo@gmail.com',
 		},
 		{
-			icon: './src/assets/images/Contact/address/location.svg',
+			icon: '/assets/images/Contact/address/location.svg',
 			text: '132 Dartmouth Street Boston, Massachusetts 02156 United States',
 		},
 	],
