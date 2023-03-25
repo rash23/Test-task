@@ -16,7 +16,7 @@ const ContactInformation: FC = (): JSX.Element => {
 				<div className="text-center text-[11px] leading-[17px] mb-3 md:text-start md:text-lg text-lightGray  md:mb-28">
 					Say something to start a live chat!
 				</div>
-				<div className="flex flex-col items-center md:items-start gap-[15px] md:gap-[50px] mb-14 md:mb-40 text-center">
+				<div className="flex flex-col items-start gap-[15px] md:gap-[50px] mb-14 md:mb-40">
 					{addressData.map((item: ContactAddressType) => (
 						<ContactAddress key={item.text} icon={item.icon} text={item.text} />
 					))}
@@ -39,7 +39,7 @@ const ContactInformation: FC = (): JSX.Element => {
 					xmlns="http://www.w3.org/2000/svg"
 				>
 					<circle cx="162.5" cy="160.5" r="134.5" fill="#1A1A1A" />
-					<circle cx="69" cy="69" r="69" fill="#484848" fill-opacity="0.5" />
+					<circle cx="69" cy="69" r="69" fill="#484848" fillOpacity="0.5" />
 				</svg>
 			</div>
 			<ContactForm />
