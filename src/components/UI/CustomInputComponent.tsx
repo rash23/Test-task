@@ -4,7 +4,7 @@ const CustomInputComponent: FC<InputPropsType> = ({ label, ...rest }): JSX.Eleme
 	return (
 		<div
 			onClick={(event) => event.stopPropagation()}
-			className="flex flex-col border-b border-black py-1 text-sm w-full cursor-pointer"
+			className="flex flex-col border-b border-black py-1 text-sm md:text-[14px] md:leading-[20px] w-full cursor-pointer"
 		>
 			<label>{label}</label>
 			<input {...rest}></input>

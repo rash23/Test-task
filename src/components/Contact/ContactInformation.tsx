@@ -16,7 +16,7 @@ const ContactInformation: FC = (): JSX.Element => {
 				<div className="text-center text-[11px] leading-[17px] mb-3 md:text-start md:text-lg text-lightGray  md:mb-28">
 					Say something to start a live chat!
 				</div>
-				<div className="flex flex-col items-start gap-[15px] md:gap-[50px] mb-14 md:mb-40">
+				<div className="flex flex-col items-center md:items-start gap-[15px] md:gap-[50px] mb-14 md:mb-40">
 					{addressData.map((item: ContactAddressType) => (
 						<ContactAddress key={item.text} icon={item.icon} text={item.text} />
 					))}
