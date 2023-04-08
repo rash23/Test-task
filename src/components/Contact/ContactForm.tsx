@@ -32,7 +32,8 @@ const ContactForm: FC = (): JSX.Element => {
 		} else {
 			setDisabled(false)
 		}
-	})
+	}, [firstName, lastName, email, phoneNumber, phoneNumber, message])
+
 	const clearForm = () => {
 		dispatch(setFirstName(''))
 		dispatch(setLastName(''))

@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC, useMemo } from 'react'
 import { useSelector } from 'react-redux'
 import { RootState } from 'src/types'
 import { ContactAddressType } from 'src/redux/Contact/types'
@@ -17,9 +17,13 @@ const ContactInformation: FC = (): JSX.Element => {
 					Say something to start a live chat!
 				</div>
 				<div className="flex flex-col items-center md:items-start gap-[15px] md:gap-[50px] mb-14 md:mb-40">
-					{addressData.map((item: ContactAddressType) => (
-						<ContactAddress key={item.text} icon={item.icon} text={item.text} />
-					))}
+					{useMemo(
+						() =>
+							addressData.map((item: ContactAddressType) => (
+								<ContactAddress key={item.text} icon={item.icon} text={item.text} />
+							)),
+						[]
+					)}
 				</div>
 				<div className="flex gap-6 justify-center md:justify-start">
 					<div className="cursor-pointer">
